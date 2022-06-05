@@ -1,0 +1,200 @@
+body{
+    background-image: url(pozadina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: rgba(12, 33, 49, 0.37);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  
+  
+  .navbar a {
+    float: left;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  
+  }
+  
+  .navbar a:hover {
+    background-color: rgba(185, 183, 183, 0.425);
+    color: black;
+    transition: 1s;
+    border-radius: 2rem;
+  
+  }
+  
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgba(12, 33, 49, 0.37);
+    width: 100%;
+    z-index: 1;
+  }
+  
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .subnav-content a:hover {
+    background-color: rgba(185, 183, 183, 0.425);
+    color: black;
+  }
+  
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  
+.subnavbtn{
+    background-color: rgba(12, 33, 49, 0);
+    border-style: none;
+}
+
+
+
+section{
+    display: grid;
+    grid-template-areas: 
+    "a  a   h   h"
+    "b  b   i   i"
+    "tri  tri   j   j"
+    "d  d   k   k"
+    "pet  pet   l   l"
+    "f  f   lj   lj"
+    "g  g   m   m"
+    "n  n   n   n";
+    row-gap: 1.4rem;
+    column-gap: 35rem;
+    margin-top: 100px;
+}
+
+.a{
+    grid-area: a;
+    float: left;
+    margin-left: 100px;
+}
+
+.h{
+    grid-area: h;
+    float: right;
+    text-align: right;
+    margin-right: 100px
+}
+
+.b{
+    grid-area: b;
+    float: left;
+    margin-left: 100px;
+}
+
+
+.i{
+    grid-area: i;
+    float: right;
+    text-align: right;
+    margin-right: 100px
+}
+
+
+.tri{
+    grid-area: tri;
+    margin-left: 100px;
+    float: left;
+}
+
+.d{
+    grid-area: d;
+    margin-left: 100px;
+    float: left;
+}
+
+.pet{
+    grid-area: pet;
+    margin-left: 100px;
+    float: left;
+}
+
+.f{
+    grid-area: f;
+    margin-left: 100px;
+    float: left;
+}
+
+.g{
+    grid-area: g;
+    margin-left: 100px;
+    float: left;
+}
+
+.j{
+    grid-area: j;
+    text-align: right;
+    float: right;
+    margin-right: 100px
+}
+
+.k{
+    grid-area: k;
+    float: right;
+    text-align: right;
+    margin-right: 100px
+}
+
+.l{
+    grid-area: l;
+    text-align: right;
+    float: right;
+    margin-right: 100px
+}
+
+.lj{
+    grid-area: lj;
+    text-align: right;
+    float: right;
+    margin-right: 100px
+}
+
+.m{
+    grid-area: m;
+    text-align: right;
+    float: right;
+    margin-right: 100px
+}
+
+.n{
+    grid-area: n;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px
+   
+}
+
+.podrucje{
+    background-color: rgba(94, 94, 94, 0.5);
+    padding: 10px;
+    border-radius: 2rem;
+    font-size: 20px;
+}
+

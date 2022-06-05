@@ -1,0 +1,77 @@
+body{
+    background-image: url(pozadina.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    margin-top: 0;
+}
+
+.underline{
+    width: 500px;
+    margin-top: 0;
+    height: 80px;
+    margin-left: 40px;
+}
+
+h1{
+    text-align: left;
+    font-size: 8rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 170px;
+    color: rgb(31, 10, 10);
+}
+
+p{
+    color: rgb(17, 17, 17);
+    font-size: 1.8rem;
+}
+
+.callout {
+    position: fixed;
+    top: 280px;
+    left: 10px;
+    margin-left: 10px;
+    max-width: 600px;
+    background-color: rgba(109, 36, 36, 0.295);
+    border-radius: 2rem;
+    padding: 8px;
+    margin-top: 100px;
+  }
+
+
+    
+.navbar {
+    overflow: hidden;
+    background-color: rgba(12, 33, 49, 0.445);
+    border-radius: 2rem;
+    
+  }
+  
+  
+  .navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 13px 40px;
+    text-decoration: none;
+    padding-left: auto;
+    padding-right: auto;
+    
+    
+    
+  }
+  
+  
+  
+  .navbar a:hover {
+    background-color: rgba(255, 180, 137, 0.411);
+    color: black;
+    transition: 1s;
+    border-radius: 2rem;
+  
+  }
